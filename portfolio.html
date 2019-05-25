@@ -6,23 +6,110 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <title>Portfolio</title>
+    <style>
+        body {
+            background-color: lightgray;
+        }
+        .navbar-brand {
+            background-color: #4aaaa5;
+            padding: 5px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            color: white;
+        }
+        .container {
+            max-width: 960px;
+            background-color: white;
+            padding: 20px 50px 20px 50px;
+            margin-top: 40px;
+        }
+        h2 {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            color: #4aaaa5;
+        }
+        /* footer {
+            padding: 30px 0;
+            font-size: 12px;
+            color: #ffffff;
+            color: #cccccc;
+            text-align: center;
+            background: #666666;
+            border-top: 8px solid #4aaaa5;
+            height: 50px;
+        } */
+    </style>
 </head>
 
 <body>
-    <header id="masthead">
-        <div class="container">
-            <a href="index.html" id="logo">Molly Graham</a>
-                <nav>
-                <a href="index.html">About</a>
-                <a href="portfolio.html">Portfolio</a>
-                <a href="contact.html">Contact</a>
-                </nav>
+<!-- Nav Bar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <a class="navbar-brand" href="#">Molly Graham</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">About Me <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Portfolio</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<!-- Portfolio Thumbnails -->        
+<div class="container">
+<!-- Row 1 -->
+<div class="row">
+    <div class="col-md-12">
+        <h2>Portfolio</h2>
+    </div>
+</div>
+<!-- Row 2 -->
+<div class="row">
+    <div class="col-md-4"><img src="http://placehold.it/150x150" alt="">
+        <div class="row">
+            <div class="col-md-12">Project 1</div>
         </div>
-    </header>
-        
-    <div id="main-container" class="container">
-        <section class="main-section">
-            <h1>Portfolio</h1>
+    </div>
+    <div class="col-md-4"><img src="http://placehold.it/150x150" alt="">
+        <div class="row">
+            <div class="col-md-12">Project 2</div>
+        </div>
+    </div>
+    <div class="col-md-4"></div>
+</div>
+<!-- Row 3 -->
+<div class="row">
+    <div class="col-md-4"><img src="http://placehold.it/150x150" alt="">
+        <div class="row">
+            <div class="col-md-12">Project 3</div>
+        </div>
+    </div>
+    <div class="col-md-4"><img src="http://placehold.it/150x150" alt="">
+        <div class="row">
+            <div class="col-md-12">Project 4</div>
+        </div>
+    </div>
+    <div class="col-md-4"></div>
+</div>
+<!-- Row 4 -->
+<div class="row">
+    <div class="col-md-4"><img src="http://placehold.it/150x150" alt="">
+        <div class="row">
+            <div class="col-md-12">Project 5</div>
+        </div>
+    </div>
+    <div class="col-md-4"></div>
+    <div class="col-md-4"></div>
+</div>        
+
+
+
+            <!-- <h1>Portfolio</h1>
     
             <div class="work">
             <img src="assets/images/technics-q-c-640-480-1.jpg" alt="Word Guess">
@@ -48,17 +135,12 @@
             <img src="assets/images/technics-q-c-640-480-9.jpg" alt="Rock Paper Scissors">
     
             <h3>Rock Paper Scissors</h3>
-            </div>
+            </div> -->
     
-        </section>
+
         
-    </div>
-        
-        <footer>
-            <div class="container">
-                Copyright &copy;
-            </div>
-        </footer>
+</div>
+
     
 </body>
 </html>
